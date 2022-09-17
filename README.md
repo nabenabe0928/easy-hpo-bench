@@ -1,4 +1,4 @@
-# HPOBench exclusively for 
+# HPOBench exclusively for the newly added tabular benchmarks
 
 [HPOBench](https://github.com/automl/HPOBench) is a collection of hyperparameter optimization benchmarks.
 
@@ -16,7 +16,10 @@ $ git clone https://github.com/nabenabe0928/easy-hpo-bench.git
 $ pip install -r requirements.txt
 ```
 
-3. Download the dataset from [this URL](https://ndownloader.figshare.com/files/30379005) (**NOTE**: The data size is 330MB.)
+3. Download the dataset from the following URLs:
+    * [MLP](https://ndownloader.figshare.com/files/30379005) (372MB)
+    * [XGBoost](https://ndownloader.figshare.com/files/30469920) (258MB)
+    * [Random Forest](https://ndownloader.figshare.com/files/30469089) (406MB)
 
 4. Test by the following command:
 ```
